@@ -225,17 +225,27 @@ h3 {
 .article_right {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 100px;
 }
 
 .article_left {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   margin-bottom: 100px;
 }
 
 .article_left_photo {
   margin-right: 30px;
+}
+
+.article_button {
+  width: 204px;
+  height: 40px;
+  background-color: #a05b4e;
+  border-radius: 30px;
+  border: none;
 }
 
 h2 {
